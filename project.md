@@ -15,14 +15,16 @@ based on a final presentation (e.g., video demo) and a project write up.
 
 ### Milestones
 
-- Project Proposal (10/11): Send us a short email describing your project idea,
+**(More detail coming.)**
+
+- Project Proposal (TBD): Send us a short email describing your project idea,
   how you plan to evaluate it, and your teammate (if applicable).
 
-- Draft Project Report (11/4): Send us a draft of your project report, focusing
-  on the motivation and design of your system, sans an evaluation.
+- Midterm Project Report (TBD): Send us a draft of your project report,
+  focusing on the motivation and design of your system, sans an evaluation.
 
-- Final Project Report (12/14): Send us a complete version of your write up,
-  including improvements upon the draft plus an evaluation of your system.
+- Final Project Report and demo (TBD): Send us a complete version of your write
+  up, including improvements upon the draft plus an evaluation of your system.
 
 
 ### Project Ideas
