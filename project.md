@@ -26,7 +26,6 @@ based on a final presentation (e.g., video demo) and a project write up.
 - Final Project Report and demo (TBD): Send us a complete version of your write
   up, including improvements upon the draft plus an evaluation of your system.
 
-
 ### Project Ideas
 
 You're welcome to choose your own project ideas. Here are some suggestions. We
