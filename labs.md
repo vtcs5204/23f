@@ -63,7 +63,7 @@ early to avoid missing the deadline due to the availability issue.
   markdown file named "linux-kernel-demo.md".
 
 
-#### A3. Write a **C** program to measure L1, L2, L3, DRAM, and SSD performance
+#### A3. Write a **C** program to measure L1, L2, L3 and DRAM performance
 
 Your C program should report the following
 results:

@@ -51,7 +51,7 @@ Please ask questions.
   - Final presentation: 10% (demo video)
   - Final report: 25%
 - Labs: 20% (semi open-ended, tentative, details TBA)
-  - CloudLab setup + kernel compilation (inside a VM) + measuring latency numbers
+  - CloudLab setup + kernel compilation + measuring latency numbers
   - Reading, understanding and hacking Linux kernel source code (nvme, fs, net, etc.)
   - FEMU FTL: Mapping, Garbage Collection (GC), Wear Leveling (WL)
   - Linux page table walker (kernel module)
