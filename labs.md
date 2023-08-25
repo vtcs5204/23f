@@ -19,7 +19,7 @@ at 11:55pm**. Please work on it ASAP.
 
 We will add you to the Github Classroom account by the end of Tuesday
 (8/29/2023). Afterwards, please accept the assignment (i.e., Lab 0) on Github
-Classroom using this link: https://classroom.github.com/a/QKlNWKiA. You will
+Classroom using this [link](https://classroom.github.com/a/QKlNWKiA). You will
 have a separate repo for you to submit codes/results.
 
 
