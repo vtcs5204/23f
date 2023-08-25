@@ -6,11 +6,13 @@ layout: home
 ## Basic Information
 
 - Lectures: TR 3:30-4:45pm, Derring Hall 3092
-- Instructor: [Huaicheng Li](https://people.cs.vt.edu/~huaicheng), huaicheng@vt.edu
+- Instructor: [Huaicheng Li](https://people.cs.vt.edu/~huaicheng),
+  huaicheng@vt.edu
   - Office hours: Fridays 1-2pm, GP 4109
 - TA: Jacqueline Bruen, jacquelineb@vt.edu
-  - Office hours: TBD
+  - Office hours: Tuesdays 10-11am, GP 1st floor lobby by the stairs
 - Online forum: Ed Discussion
+  - Please turn on the notifications to avoid missing important course updates!
 
 **Lecture attendance is mandatory**. Each student is allowed to miss three
 lectures over the course of the semester; students missing more than three
