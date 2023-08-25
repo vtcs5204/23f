@@ -5,13 +5,17 @@ layout: home
 
 ### Introduction
 
-The main focus of this class is in research in operating systems, which will be
-structured as a class final project. A good project will make a new
-contribution, rather than implementing an existing system or idea. It can be
-related to your graduate research, as long as it overlaps with the themes in
-the course. Collaboration is required: each project can be done in groups of
-two or individually (only for exception cases). Projects will be evaluated
-based on a final presentation (e.g., video demo) and a project write up.
+This course primarily centers around learning OS design internals and
+conducting research in operating systems, with the key component structured as
+a final project. A successful project should entail a novel contribution,
+avoiding mere replication of existing systems or ideas. It's permissible if
+your project aligns with your graduate research, as long as it intersects with
+the course themes.
+
+Collaboration is essential; projects should be undertaken in pairs. Assessment
+of projects will encompass a final presentation, such as a video demonstration,
+along with a comprehensive project write-up.
+
 
 ### Milestones
 
