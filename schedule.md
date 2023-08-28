@@ -3,10 +3,11 @@ title: Schedule
 layout: home
 ---
 
+
 Course schedule as follows:
 
-| Week | Date  | Lecture       | Slides     | Readings                                                     | Notes
-| :-   | :--   | :----         | :---       | :---                                                         | :---
+| **Week** | **Date**  | **Lecture**       | **Slides**     | **Readings**                                                   | **Notes**
+| :--:   | :--:   | :--:         | :--:       | :----------                                                         | :---
 | 1    | 8/22  | Intro         | [slides](https://drive.google.com/file/d/1QqzvsYbwKKn0X9Gl4YQRWBnnbM91CLcH/view?usp=sharing) |                                                              | For fun: [OS evolutions](https://people.cs.rutgers.edu/~pxk/416/notes/01-intro.html) | Course logistics and OS introduction
 |      | 8/24  | Flash Storage | [slides](https://drive.google.com/file/d/1ZrqC1K8YXPuv-cY6WaSnlnFhDHH4jYM8/view?usp=sharing) | [OSTEP](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) | Storage #1
 | 2    | 8/29  |               |            | [SSD Tradeoffs](https://www.usenix.org/legacy/event/usenix08/tech/full_papers/agrawal/agrawal.pdf), [DFTL](https://www.cse.psu.edu/~buu1/papers/ps/dftl-asplos09.pdf)                                                       | Storage #2
