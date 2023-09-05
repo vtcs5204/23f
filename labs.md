@@ -8,9 +8,9 @@ layout: home
 Please work on the labs by yourself!
 
 
-### Lab 0 
+## Lab 0 
 
-#### 0. Fill out the Google Form to submit your Github account info
+### 0. Fill out the Google Form to submit your Github account info
 
 We will use Github classroom for lab submissions. We need your github IDs to
 add you to the classroom. Please fill out the
@@ -23,7 +23,7 @@ Classroom using this [link](https://classroom.github.com/a/QKlNWKiA). You will
 have a separate repo for you to submit codes/results.
 
 
-#### 1. Apply for a Cloudlab account
+### 1. Apply for a Cloudlab account
 
 Apply for an account using the [signup link](https://cloudlab.us/signup.php).
 On the "Person Information" panel, click "Join Existing Project" and fill in
@@ -42,7 +42,7 @@ Note that you can only reserve CloudLab servers for a limited amount of time
 early to avoid missing the deadline due to the availability issue.
 
 
-#### A2. Compile and install Linux kernel on CloudLab
+### A2. Compile and install Linux kernel on CloudLab
 
 - Get Linux kernel source from github [here](https://github.com/torvalds/linux)
 - Switch to tag "v6.4"
@@ -63,7 +63,7 @@ early to avoid missing the deadline due to the availability issue.
   markdown file named "linux-kernel-demo.md".
 
 
-#### A3. Write a **C** program to measure L1, L2, L3 and DRAM performance
+### A3. Write a **C** program to measure L1, L2, L3 and DRAM performance
 
 Your C program should report the following
 results:
@@ -86,7 +86,7 @@ Hints: Check Figure 1 of this
 [paper](https://lmbench.sourceforge.net/lmbench-usenix.pdf). Your program needs
 to report results in a similar style.
 
-#### A4. Measure the SSD write bandwidth
+### A4. Measure the SSD write bandwidth
 
 Please use [FIO](https://github.com/axboe/fio) and steady-state configuration
 [here](https://github.com/axboe/fio/blob/master/examples/ssd-steadystate.fio)
@@ -102,7 +102,7 @@ bandwidth results, plot a graph where:
 - Save the graph with all the above information as "ssd-bw.pdf" 
 
 
-#### 5. Submission
+### 5. Submission
 
 Please submit the following files for tasks A2-A4 to your personalized Lab0 repo, with
 
@@ -115,9 +115,64 @@ push to the repo after the deadline.
 
 ----
 
-### Lab 1
+## Lab 1
 
-TBA
+### Part 1.1 - Getting started with [FEMU](https://github.com/vtess/FEMU.git), Due: 9/7/2023 11:59pm
+
+FEMU is a popular NVMe SSD emulator for storage research. This part familirizes
+you with FEMU usage and perform some experiments to benchmark FEMU SSD
+performance implications of different internal organizations.
+
+#### Preparation
+
+- Please follow the README on FEMU github repo to install and run FEMU.
+- Please use the provided VM image on a CloudLab machine.
+- Please run FEMU in blackbox mode (i.e., ``run-bbssd.sh``)
+- [Optional] Please follow the [best
+  practice](https://github.com/vtess/FEMU/wiki/FEMU-Best-Practice) for best and
+  stable performance. In particular, apply ``Additional (Optional) Tweaks`` to
+  NVMe driver and recompile the linux kernel running inside the VM. If you
+  choose to do so, I suggest you stick to the kernel version for Lab 0.
+
+
+#### FEMU Performance Experiments
+
+- Check ``run-blackbox.sh`` and configure the emulated SSD layouts. In
+  particular, you will need the following 4 layout profiles (**L1-L4**):
+  - (**L1**). 1 channel + 4 chips/channel, 400us page read latency
+  - (**L2**). 2 channels + 4 chips/channel, 400us page read latency
+  - (**L3**). 4 channels + 4 chips/channel, 400us page read latency
+  - (**L4**). 8 channels + 4 chips/chanel, 400us page read latency
+
+> Remember to change the ssd size accordingly when changing the above layout!
+
+- For each of the above FEMU layout profile (L1-L4), run a series of FIO
+  workloads to measure its IOPS using: ``psync I/O engine, direct I/O, 4KB random
+  read, thread mode, time_based, runtime=120s, vary numjobs: 1, 2, 4, 16, 64,
+  128``. Please collect the reported IOPS numbers.
+
+In total, you will run 4 x 6 = 24 experiments and get 24 IOPS numbers for all
+the SSD layout and FIO numjobs combinations.
+
+- Please submit a graph, named ``femu-ssd-perf.pdf`` with the following
+  information:
+  - X: QD (actually refer to ``numjobs``)
+  - Y: IOPS
+  - Title: FEMU SSD Performance $PID-$YourLastName
+  - In the graph, show 4 linepoints, the legend for each line should be "1
+    channels", "2 channels", "4 channels", and "8 channels".
+  - Caption: Analyze the performance results by answering questions:
+    - For any of the layout profiles, how does the performance change under
+      increasing number of jobs? why?
+    - Under a fixed number of jobs, how does the performance change under
+      increasing number of channels? why?
+
+> Note: Please fill the FEMU SSD with large sequential writes (as in Lab 0
+  steadystate experiment) before performing the above read experiments. You
+  only need to do the writes once each time FEMU VM is launched. FEMU SSDs
+  start with an empty state (no L2P mapping), thus the full-drive drive is to
+  help create the mapping so FEMU will emulate the read latency reliablely.
+
 
 ### Lab 2
 
