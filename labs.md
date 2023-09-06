@@ -119,6 +119,8 @@ push to the repo after the deadline.
 
 ### Part 1.1 - Getting started with [FEMU](https://github.com/vtess/FEMU.git), Due: 9/7/2023 11:59pm
 
+> Please accept the assignment on Github classroom using this [link](https://classroom.github.com/a/rZ2ba_LE).
+
 FEMU is a popular NVMe SSD emulator for storage research. This part familirizes
 you with FEMU usage and perform some experiments to benchmark FEMU SSD
 performance implications of different internal organizations.
