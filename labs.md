@@ -129,7 +129,7 @@ performance implications of different internal organizations.
 
 - Please follow the README on FEMU github repo to install and run FEMU.
 - Please use the provided VM image on a CloudLab machine.
-- Please run FEMU in blackbox mode (i.e., ``run-bbssd.sh``)
+- Please run FEMU in blackbox mode (i.e., ``run-blackbox.sh``)
 - [Optional] Please follow the [best
   practice](https://github.com/vtess/FEMU/wiki/FEMU-Best-Practice) for best and
   stable performance. In particular, apply ``Additional (Optional) Tweaks`` to
