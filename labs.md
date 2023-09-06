@@ -144,7 +144,7 @@ performance implications of different internal organizations.
   - (**L1**). 1 channel + 4 chips/channel, 400us page read latency
   - (**L2**). 2 channels + 4 chips/channel, 400us page read latency
   - (**L3**). 4 channels + 4 chips/channel, 400us page read latency
-  - (**L4**). 8 channels + 4 chips/chanel, 400us page read latency
+  - (**L4**). 8 channels + 4 chips/channel, 400us page read latency
 
 > Remember to change the ssd size accordingly when changing the above layout!
 
@@ -172,7 +172,7 @@ the SSD layout and FIO numjobs combinations.
 > Note: Please fill the FEMU SSD with large sequential writes (as in Lab 0
   steadystate experiment) before performing the above read experiments. You
   only need to do the writes once each time FEMU VM is launched. FEMU SSDs
-  start with an empty state (no L2P mapping), thus the full-drive drive is to
+  start with an empty state (no L2P mapping), thus the full-drive write is to
   help create the mapping so FEMU will emulate the read latency reliablely.
 
 
