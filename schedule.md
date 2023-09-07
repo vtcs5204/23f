@@ -14,7 +14,7 @@ Course schedule as follows:
 |          | 8/31     | SSD FTLs      | [slides](https://drive.google.com/file/d/1QyQGA3rd0LU7ft6aqYGv_lwE54Yyeo4Z/view?usp=sharing) |                                                                                                                                                                       | Storage #3
 | 3        | 9/5      | NVMe          | [slides](https://drive.google.com/file/d/1zNyqe5iD2fZrK4qhV77ppeWM2-BwBbBL/view?usp=sharing) |
 |          | 9/7      | RAID          | [slides]()                                                                                   | [OSTEP ch38](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
-| 4        | 9/12     | RAID          |                                                                                              | [1](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf)[2](https://www.usenix.org/system/files/conference/fast16/fast16-papers-schroeder.pdf)
+| 4        | 9/12     | RAID          |                                                                                              | [FEMU](https://www.usenix.org/system/files/conference/fast18/fast18-li.pdf) [[1]](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf) [[2]](https://www.usenix.org/system/files/conference/fast16/fast16-papers-schroeder.pdf)
 |          | 9/14     |               |
 | 5        | 9/19     |               |
 |          | 9/21     |               |
