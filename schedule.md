@@ -13,8 +13,8 @@ Course schedule as follows:
 | 2        | 8/29     | SSD FTLs      | [slides](https://drive.google.com/file/d/1FrDJ8fXTDoE2m4kV8xt1Y1_LkOTVpIW0/view?usp=sharing) | [SSD Tradeoffs](https://www.usenix.org/legacy/event/usenix08/tech/full_papers/agrawal/agrawal.pdf), [DFTL](https://www.cse.psu.edu/~buu1/papers/ps/dftl-asplos09.pdf) | Storage #2
 |          | 8/31     | SSD FTLs      | [slides](https://drive.google.com/file/d/1QyQGA3rd0LU7ft6aqYGv_lwE54Yyeo4Z/view?usp=sharing) |                                                                                                                                                                       | Storage #3
 | 3        | 9/5      | NVMe          | [slides](https://drive.google.com/file/d/1zNyqe5iD2fZrK4qhV77ppeWM2-BwBbBL/view?usp=sharing) |
-|          | 9/7      | RAID          | [slides]()                                                                                   | [OSTEP ch38](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
-| 4        | 9/12     | RAID          |                                                                                              | [FEMU](https://www.usenix.org/system/files/conference/fast18/fast18-li.pdf) [[1]](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf) [[2]](https://www.usenix.org/system/files/conference/fast16/fast16-papers-schroeder.pdf)
+|          | 9/7      | FEMU,FIO,RAID | [slides](https://drive.google.com/file/d/1JrZqW1U3zrP36nItTUZlFpa3tE9KwD6F/view?usp=sharing) | [FEMU](https://www.usenix.org/system/files/conference/fast18/fast18-li.pdf) [OSTEP ch38](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
+| 4        | 9/12     | RAID          |                                                                                              | [[1]](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf) [[2]](https://www.usenix.org/system/files/conference/fast16/fast16-papers-schroeder.pdf)
 |          | 9/14     |               |
 | 5        | 9/19     |               |
 |          | 9/21     |               |
