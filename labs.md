@@ -187,7 +187,7 @@ You need to implement the two mapping schemes and perform benchmarks to
 validate the correctness and measure their performance by comparing them to
 FEMU's baseline page-mapping scheme.
 
-**Rules:**
+#### **Guidelines**
 
 - Configure FEMU SSD with total raw flash capacity of 64GB with 8 channels,
   4 chips/channel, 400us read latency, 3ms write latency and 10ms erase
@@ -220,7 +220,7 @@ FEMU's baseline page-mapping scheme.
   - Measure hybrid-mapping performance
     - the same experimental setups as block-mapping testings.
 
-- Submissions
+#### Submissions
   - Source code: ``ftl.c`` and ``ftl.h``
   - Bar graph showing the median write latencies for block-mapping and
     hybrid-mapping under two FIO ``bs=`` values.
@@ -233,10 +233,10 @@ FEMU's baseline page-mapping scheme.
 ### Part 3 - 
 
 
-### Lab 2
+## Lab 2
 
 TBA
 
-### Lab 3
+## Lab 3
 
 TBA
