@@ -117,7 +117,7 @@ push to the repo after the deadline.
 
 ## Lab 1
 
-### Part 1.1 - Getting started with [FEMU](https://github.com/vtess/FEMU.git), Due: 9/7/2023 11:59pm
+### Part 1 - Getting started with [FEMU](https://github.com/vtess/FEMU.git), Due: 9/7/2023 11:59pm
 
 > Please accept the assignment on Github classroom using this [link](https://classroom.github.com/a/rZ2ba_LE).
 
@@ -174,6 +174,59 @@ the SSD layout and FIO numjobs combinations.
   only need to do the writes once each time FEMU VM is launched. FEMU SSDs
   start with an empty state (no L2P mapping), thus the full-drive write is to
   help create the mapping so FEMU will emulate the read latency reliablely.
+
+
+### Part 2 - [Block-Based and Hybrid Mappings](https://pages.cs.wisc.edu/~remzi/OSTEP/file-ssd.pdf) on FEMU, Due: 9/19/2023 11:59pm
+
+
+Refer to OSTEP, Chapter 44: "Flash-based SSDs" for a nice summary of how
+block-based and hybrid mappings work. Aslo refer to the cited papers to better
+understand the detail design choices you need to makes.
+
+You need to implement the two mapping schemes and perform benchmarks to
+validate the correctness and measure their performance by comparing to FEMU's
+baseline page-mapping scheme.
+
+Rules:
+
+- Configure FEMU SSDs, with total a raw flash capacity of 64GB with 8 channels,
+  4 chips/channel, 400us read latency, 3ms write latency and 10ms erase
+    latency.
+- You only need to change ``hw/femu/bbssd/ftl.[ch]`` to implement the block-
+  and hybrid- mappings. In your submission, please only commit your updated
+  ``ftl.[ch]``. Of course, feel free to hack all the FEMU files you think
+  necessary for debugging but just don't submit them.
+- In ``ftl.h``, you should have a MACRO ``FTL_MAPPING_TBL_MODE`` to switch
+  among the three mapping schemes:
+  - `0` for FEMU's baseline page-level mapping
+  - `1` for your new block-based mapping
+  - `2` for your new hybrid mapping
+- Evaluations: You will need to analyze and benchmark the performance of the
+  three mapping policies. Don't trigger GC for mapping experiments.
+  Particularly, answer the following questions:
+  - Again, don't trigger GC (by controller the amount of data you write), and
+    directly read/write from/to the emulated NVMe interface.
+  - What is the space overhead of your block- and hybrid- mappings? Answer it
+    in the format of "10MB (0.1%)".
+  - Measure block-mapping performance using FIO:
+    - Exp 1: Issue 100K sequential **overwrite** requests, ``psync``, ``numjobs=1``,
+      ``bs`` should equal to ``flash block size``, report median latency and IOPS.
+    - Exp 2: Use ``bs=4K``, redo the above experiment
+    - Analyze and **explain** the latency difference between the two experiments.
+  - Measure hybrid-mapping performance
+    - the same experimental setups as block-mapping testings.
+
+- Submissions
+  - Source code: ``ftl.c`` and ``ftl.h``
+  - Bar graph showing the median write latencies for block-mapping and
+    hybrid-mapping under two FIO ``bs=`` values.
+    - Use the caption to explain why you think your results make sense. For
+      example, if your latency is 2.5ms, explain why it's 2.5ms for the
+      workload and mapping scheme. And explain why the latency differs under
+      different ``bs=`` settings and across block- and hybrid- mappings. Be
+      specific about the amount of latency difference and answer why?
+
+### Part 3 - 
 
 
 ### Lab 2
