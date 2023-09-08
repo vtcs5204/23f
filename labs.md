@@ -181,38 +181,42 @@ the SSD layout and FIO numjobs combinations.
 
 Refer to OSTEP, Chapter 44: "Flash-based SSDs" for a nice summary of how
 block-based and hybrid mappings work. Aslo refer to the cited papers to better
-understand the detail design choices you need to makes.
+understand the detailed design choices you need to make.
 
 You need to implement the two mapping schemes and perform benchmarks to
-validate the correctness and measure their performance by comparing to FEMU's
-baseline page-mapping scheme.
+validate the correctness and measure their performance by comparing them to
+FEMU's baseline page-mapping scheme.
 
-Rules:
+**Rules:**
 
-- Configure FEMU SSDs, with total a raw flash capacity of 64GB with 8 channels,
+- Configure FEMU SSD with total raw flash capacity of 64GB with 8 channels,
   4 chips/channel, 400us read latency, 3ms write latency and 10ms erase
     latency.
 - You only need to change ``hw/femu/bbssd/ftl.[ch]`` to implement the block-
   and hybrid- mappings. In your submission, please only commit your updated
   ``ftl.[ch]``. Of course, feel free to hack all the FEMU files you think
-  necessary for debugging but just don't submit them.
+  necessary for debugging, but just don't submit them.
 - In ``ftl.h``, you should have a MACRO ``FTL_MAPPING_TBL_MODE`` to switch
   among the three mapping schemes:
   - `0` for FEMU's baseline page-level mapping
   - `1` for your new block-based mapping
   - `2` for your new hybrid mapping
 - Evaluations: You will need to analyze and benchmark the performance of the
-  three mapping policies. Don't trigger GC for mapping experiments.
-  Particularly, answer the following questions:
+  three mapping policies. Don't trigger GC for the experiments.  Particularly,
+  answer the following questions:
   - Again, don't trigger GC (by controller the amount of data you write), and
     directly read/write from/to the emulated NVMe interface.
   - What is the space overhead of your block- and hybrid- mappings? Answer it
-    in the format of "10MB (0.1%)".
+    in a format, e.g., "page-mapping: 10MB (0.1%)", where 10MB is the total
+    DRAM space consumed by your in-DRAM mapping table, 0.1% is the space
+    overhead compared to the raw SSD capacity.
   - Measure block-mapping performance using FIO:
-    - Exp 1: Issue 100K sequential **overwrite** requests, ``psync``, ``numjobs=1``,
-      ``bs`` should equal to ``flash block size``, report median latency and IOPS.
+    - **Exp 1:** Issue 100K sequential **overwrite** requests, ``psync``,
+      ``numjobs=1``, ``bs`` should equal to ``flash block size``, report median
+      latency and IOPS.
     - Exp 2: Use ``bs=4K``, redo the above experiment
-    - Analyze and **explain** the latency difference between the two experiments.
+    - Analyze and **explain** the latency difference between the two
+      experiments.
   - Measure hybrid-mapping performance
     - the same experimental setups as block-mapping testings.
 
