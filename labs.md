@@ -191,7 +191,7 @@ FEMU's baseline page-mapping scheme.
 
 - Configure FEMU SSD with total raw flash capacity of 64GB with 8 channels,
   4 chips/channel, 400us read latency, 3ms write latency and 10ms erase
-    latency.
+  latency. Please keep the default block size unchanged.
 - You only need to change ``hw/femu/bbssd/ftl.[ch]`` to implement the block-
   and hybrid- mappings. In your submission, please only commit your updated
   ``ftl.[ch]``. Of course, feel free to hack all the FEMU files you think
@@ -229,6 +229,10 @@ FEMU's baseline page-mapping scheme.
       workload and mapping scheme. And explain why the latency differs under
       different ``bs=`` settings and across block- and hybrid- mappings. Be
       specific about the amount of latency difference and answer why?
+  - A short report in pdf describing your implementation and design. What
+    functional changes have you made on top of the base FEMU FTL code to
+    achieve block- and hybrid- mapping? What is the processing flow for each
+    read() and write() operation? Feel free to use diagrams to visualize them.
 
 ### Part 3 - 
 
