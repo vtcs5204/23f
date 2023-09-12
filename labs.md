@@ -211,7 +211,7 @@ FEMU's baseline page-mapping scheme.
     DRAM space consumed by your in-DRAM mapping table, 0.1% is the space
     overhead compared to the raw SSD capacity.
   - Measure block-mapping performance using FIO:
-    - **Exp 1:** Issue 100K sequential **overwrite** requests, ``psync``,
+    - **Exp 1:** Issue 1000 sequential **overwrite** requests, ``psync``,
       ``numjobs=1``, ``bs`` should equal to ``flash block size``, report median
       latency and IOPS.
     - Exp 2: Use ``bs=4K``, redo the above experiment
