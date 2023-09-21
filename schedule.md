@@ -16,8 +16,8 @@ Course schedule as follows:
 |          | 9/7      | FEMU,FIO          | [slides](https://drive.google.com/file/d/1JrZqW1U3zrP36nItTUZlFpa3tE9KwD6F/view?usp=sharing) | [FEMU](https://www.usenix.org/system/files/conference/fast18/fast18-li.pdf), [OSTEP Ch38](https://pages.cs.wisc.edu/~remzi/OSTEP/file-raid.pdf)
 | 4        | 9/12     | RAID              | [slides](https://drive.google.com/file/d/1jEOsiwkHIym7ANitTKQK1VjmKCw95Vmx/view?usp=sharing) | [[1]](https://www.cs.cmu.edu/~garth/RAIDpaper/Patterson88.pdf), [[2]](https://www.usenix.org/system/files/conference/fast16/fast16-papers-schroeder.pdf)
 |          | 9/14     | RAID              | [slides](https://drive.google.com/file/d/1PkHxLe7L7_BmjnTPSoLWxz3bW-SEz3t4/view?usp=sharing)
-| 5        | 9/19     | Proposal Feedback | 
-|          | 9/21     |                   |
+| 5        | 9/19     | Proposal Feedback |
+|          | 9/21     | File Systems      | [slides](https://drive.google.com/file/d/1gbHlhTn3GoMJYXmas0nKuYJH_1uTuneH/view?usp=sharing) | OSTEP [Ch39, Ch40]
 | 6        | 9/26     |                   |
 |          | 9/28     |                   |
 | 7        | 10/3     |                   |
