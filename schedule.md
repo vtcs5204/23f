@@ -18,7 +18,7 @@ Course schedule as follows:
 |          | 9/14     | RAID              | [slides](https://drive.google.com/file/d/1PkHxLe7L7_BmjnTPSoLWxz3bW-SEz3t4/view?usp=sharing)
 | 5        | 9/19     | Proposal Feedback |
 |          | 9/21     | File Systems      | [slides](https://drive.google.com/file/d/1gbHlhTn3GoMJYXmas0nKuYJH_1uTuneH/view?usp=sharing) | OSTEP [Ch39, Ch40]
-| 6        | 9/26     |                   |
+| 6        | 9/26     | File Systems      | [slides](https://drive.google.com/file/d/1Crn3ii-0H3QZlRqTiEWzID_s6Jf7JbxX/view?usp=sharing)
 |          | 9/28     |                   |
 | 7        | 10/3     |                   |
 |          | 10/5     |                   |
