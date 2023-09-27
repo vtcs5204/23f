@@ -89,7 +89,12 @@ below for some examples:
 
 ### Research Papers
 
-- **TBA**
+#### File Systems
+- GFS, [The Google File System](https://research.google/pubs/pub51/), by Sanjay Ghemawat, Howard Gobioff, Shun-Tak Leung 
+- LFS, [Design and Implementation of the Log-structured File System](https://dl.acm.org/doi/10.1145/146941.146943), by Mendel Rosenblum, John Ousterhout
+- BtrFS, [BTRFS: The Linux B-Tree Filesystem](https://dl.acm.org/doi/10.1145/2501620.2501623), by Ohad Rodeh, Josef Bacik, Chris Mason
+- FFS, [A Fast File System for UNIX](https://dsf.berkeley.edu/cs262/FFS.pdf), by Marshall K. McKusick, William N. Joy, Sam J. Leffler, Robert S. Fabry
+- WAFL, [File System Design for an NFS File Server Appliance](https://www.cs.princeton.edu/courses/archive/fall04/cos318/docs/netapp.pdf), by Dave Hitz, James Lau, Michael Malcolm
 
 ### Systems Programming
 
