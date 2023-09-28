@@ -19,10 +19,10 @@ Course schedule as follows:
 | 5        | 9/19     | Proposal Feedback |
 |          | 9/21     | File Systems      | [slides](https://drive.google.com/file/d/1gbHlhTn3GoMJYXmas0nKuYJH_1uTuneH/view?usp=sharing) | OSTEP [Ch39, Ch40]
 | 6        | 9/26     | File Systems      | [slides](https://drive.google.com/file/d/1Crn3ii-0H3QZlRqTiEWzID_s6Jf7JbxX/view?usp=sharing)
-|          | 9/28     |                   |
-| 7        | 10/3     |                   |
+|          | 9/28     | File Systems      |
+| 7        | 10/3     | Group presentation|
 |          | 10/5     |                   |
-| 8        | 10/10    |                   |
+| 8        | 10/10    | Guest Lecture     |
 |          | 10/12    |                   |
 | 9        | 10/17    |                   |
 |          | 10/19    |                   |
