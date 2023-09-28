@@ -24,7 +24,7 @@ Course schedule as follows:
 |          | 10/5     |                   |
 | 8        | 10/10    | Guest Lecture     |
 |          | 10/12    |                   |
-| 9        | 10/17    |                   |
+| 9        | 10/17    | Hacking Day!      |
 |          | 10/19    |                   |
 | 10       | 10/24    |                   |
 |          | 10/26    |                   |
