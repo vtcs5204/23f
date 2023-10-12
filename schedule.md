@@ -23,7 +23,7 @@ Course schedule as follows:
 | 7        | 10/3     | FFS,LFS,WAFL      |
 |          | 10/5     | GFS, BtrFS        |
 | 8        | 10/10    | Guest Lecture     |                                                                                              | [ZNS](https://www.usenix.org/conference/atc21/presentation/bjorling)
-|          | 10/12    |                   |
+|          | 10/12    | Memory Management | [slides](https://drive.google.com/file/d/1E5xvkLqNjMtYpgqxoOUxS1OvSeULl2AO/view?usp=sharing)
 | 9        | 10/17    | Hacking Day!      |
 |          | 10/19    |                   |
 | 10       | 10/24    |                   |
