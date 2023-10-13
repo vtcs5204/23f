@@ -25,23 +25,21 @@ Course schedule as follows:
 | 8        | 10/10    | Guest Lecture     |                                                                                              | [ZNS](https://www.usenix.org/conference/atc21/presentation/bjorling)
 |          | 10/12    | Memory Management | [slides](https://drive.google.com/file/d/1E5xvkLqNjMtYpgqxoOUxS1OvSeULl2AO/view?usp=sharing)
 | 9        | 10/17    | Hacking Day!      |
-|          | 10/19    |                   |
-| 10       | 10/24    |                   |
-|          | 10/26    |                   |
+|          | 10/19    | Memory Management |
+| 10       | 10/24    | Memory Management |
+|          | 10/26    | Memory Management |
 | 11       | 10/31    |                   |
 |          | 11/2     |                   |
 | 12       | 11/7     |                   |
 |          | 11/9     |                   |
 | 13       | 11/14    |                   |
 |          | 11/16    |                   |
-| 14       | 11/21    |                   |
-|          | 11/23    |                   |
+| 14       | 11/21    | Thanksgiving      |
+|          | 11/23    | Thanksgiving      |
 | 15       | 11/28    |                   |
 |          | 11/30    |                   |
 | 16       | 12/5     |                   |
-|          | 12/7     |                   |
-| 17       | 12/12    |                   |
-|          | 12/14    |                   |
+|          | 12/7     | Reading Day       |
 
 
 ----
