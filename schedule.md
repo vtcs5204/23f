@@ -20,17 +20,17 @@ Course schedule as follows:
 |          | 9/21     | File Systems      | [slides](https://drive.google.com/file/d/1gbHlhTn3GoMJYXmas0nKuYJH_1uTuneH/view?usp=sharing) | OSTEP [Ch39, Ch40]
 | 6        | 9/26     | File Systems      | [slides](https://drive.google.com/file/d/1Crn3ii-0H3QZlRqTiEWzID_s6Jf7JbxX/view?usp=sharing)
 |          | 9/28     | File Systems      | [slides](https://drive.google.com/file/d/1cv9-cuErVEIJFPWGFCq9Zu4m8ZYAqcg1/view?usp=sharing)
-| 7        | 10/3     | FFS,LFS,WAFL      |
-|          | 10/5     | GFS, BtrFS        |
-| 8        | 10/10    | Guest Lecture     |                                                                                              | [ZNS](https://www.usenix.org/conference/atc21/presentation/bjorling)
+| 7        | 10/3     | FFS,LFS,WAFL      | Group presentation
+|          | 10/5     | GFS, BtrFS        | Group presentatios
+| 8        | 10/10    | Guest Lecture     | Matias Bjørling (WDC), Zoned Namespace SSDs                                                  | [ZNS](https://www.usenix.org/conference/atc21/presentation/bjorling)
 |          | 10/12    | Memory Management | [slides](https://drive.google.com/file/d/1E5xvkLqNjMtYpgqxoOUxS1OvSeULl2AO/view?usp=sharing)
 | 9        | 10/17    | Hacking Day!      |
-|          | 10/19    | Memory Management |
+|          | 10/19    | Memory Management | [slides](https://drive.google.com/file/d/160TwGlJG9vv9LMZiQHtxhiIAS4HkhAiT/view?usp=sharing) | OSTEP (Ch15,16,17)
 | 10       | 10/24    | Memory Management |
 |          | 10/26    | Memory Management |
 | 11       | 10/31    |                   |
 |          | 11/2     |                   |
-| 12       | 11/7     |                   |
+| 12       | 11/7     | Guest Lecture     | Daniel Berger (Microsoft), TBA
 |          | 11/9     |                   |
 | 13       | 11/14    |                   |
 |          | 11/16    |                   |
