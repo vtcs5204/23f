@@ -26,7 +26,7 @@ Course schedule as follows:
 |          | 10/12    | Memory Management  | [slides](https://drive.google.com/file/d/1E5xvkLqNjMtYpgqxoOUxS1OvSeULl2AO/view?usp=sharing) |
 | 9        | 10/17    | Hacking Day!       |
 |          | 10/19    | Memory Management  | [slides](https://drive.google.com/file/d/160TwGlJG9vv9LMZiQHtxhiIAS4HkhAiT/view?usp=sharing) | OSTEP (Ch15,16, 17)                                                                                                                                                   | Paging
-| 10       | 10/24    | Memory Management  | [slides](https://drive.google.com/file/d/1-941-PBjGxGVUxtW638Bq3isHIkf9V8A/view?usp=sharing}
+| 10       | 10/24    | Memory Management  | [slides](https://drive.google.com/file/d/1-941-PBjGxGVUxtW638Bq3isHIkf9V8A/view?usp=sharing) | | TLB
 |          | 10/26    | Memory Management  | Virtual memory policies + memory tiering/disaggregation
 | 11       | 10/31    | Process/Threads    | Process abstraction
 |          | 11/2     | Process Scheduling | Scheduling
