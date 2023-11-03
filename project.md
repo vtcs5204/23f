@@ -18,11 +18,11 @@ along with a comprehensive project write-up.
 
 ### Milestones
 
-- Project Proposal (9/15 11:59pm): Send us a short email describing your
-  project idea, how you plan to evaluate it, and your teammate (if applicable).
+- Project Proposal (9/15 11:59pm): Share a brief proposal describing your
+  project idea, how you plan to evaluate it, and your teammate.
 
-- Midterm Project Report (TBA): Send us a draft of your project report,
-  focusing on the motivation and design of your system, sans an evaluation.
+- Midterm Project Report (11/3 11:59pm): Share your project report, focusing on
+  the design and implementation of your system, an initial evaluation, etc.
 
 - Final Project Report and demo (TBD): Send us a complete version of your write
   up, including improvements upon the draft plus an evaluation of your system.
@@ -54,7 +54,7 @@ system/OS hacking skills will naturally improve through the ongoing labs
 throughout the semesters, and these labs will serve as a bridge between the
 theoretical knowledge imparted in lectures.
 
-### Project Midterm Report 
+### Project Midterm Report (DDL: 11/3 11:59pm)
 
 Please submit your report via Email addressed to huaicheng@cs.vt.edu, with a
 title "CS5204: Midterm Report", attach your pdf report, by **11:59pm on 11/3**.
@@ -62,9 +62,11 @@ title "CS5204: Midterm Report", attach your pdf report, by **11:59pm on 11/3**.
 Please use the latex template you used for the proposal.
 
 1. Problem statement: what is the *specific* question you're try to tackle
-2. Recap of your high-level steps you plan to approach your solution and clear statement of where you're NOW in terms of the proposed timeline/milestone
+2. Recap of your high-level steps you plan to approach your solution and clear
+   statement of where you're NOW in terms of the proposed timeline/milestone
 3. Detailed write-up about your achieve so far, including but not limited to:
-  - The functionalities/design you have implemented or getting close to be done with
+  - The functionalities/design you have implemented or getting close to be done
+    with
   - The initial results if any (figures, tables, etc.)
   - What's the experimental setup? workloads? results?
 4. Initial conclusions
