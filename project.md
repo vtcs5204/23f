@@ -56,7 +56,19 @@ theoretical knowledge imparted in lectures.
 
 ### Project Midterm Report 
 
-TBA.
+Please submit your report via Email addressed to huaicheng@cs.vt.edu, with a
+title "CS5204: Midterm Report", attach your pdf report, by **11:59pm on 11/3**.
+
+Please use the latex template you used for the proposal.
+
+1. Problem statement: what is the *specific* question you're try to tackle
+2. Recap of your high-level steps you plan to approach your solution and clear statement of where you're NOW in terms of the proposed timeline/milestone
+3. Detailed write-up about your achieve so far, including but not limited to:
+  - The functionalities/design you have implemented or getting close to be done with
+  - The initial results if any (figures, tables, etc.)
+  - What's the experimental setup? workloads? results?
+4. Initial conclusions
+
 
 ### Project Final Report
 

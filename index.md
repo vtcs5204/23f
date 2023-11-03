@@ -96,6 +96,10 @@ below for some examples:
 - FFS, [A Fast File System for UNIX](https://dsf.berkeley.edu/cs262/FFS.pdf), by Marshall K. McKusick, William N. Joy, Sam J. Leffler, Robert S. Fabry
 - WAFL, [File System Design for an NFS File Server Appliance](https://www.cs.princeton.edu/courses/archive/fall04/cos318/docs/netapp.pdf), by Dave Hitz, James Lau, Michael Malcolm
 
+#### Memory Management
+- SDF, [Software-Defined Far Memory in Warehouse-Scale Computers](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/9bb06ab825a127bef4e33c488eaa659d6856225a.pdf), by Google researchers
+- TMO, [TMO: transparent memory offloading in datacenters](https://dl.acm.org/doi/10.1145/3503222.3507731), by Meta researchers
+
 ### Systems Programming
 
 Systems programming skills are necessary for this course. If you would like to
