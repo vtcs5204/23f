@@ -29,8 +29,8 @@ Course schedule as follows:
 | 10       | 10/24    | Memory Management  | [slides](https://drive.google.com/file/d/1-941-PBjGxGVUxtW638Bq3isHIkf9V8A/view?usp=sharing) | | TLB
 |          | 10/26    | Memory Management  | Virtual memory policies + memory tiering/disaggregation
 | 11       | 10/31    | Memory Management  | [slides](https://drive.google.com/file/d/1-IQf4KCJAevfc6e6fGmkMk1HD3XZy94X/view?usp=sharing) | | policies
-|          | 11/2     | Process Scheduling | Scheduling
-| 12       | 11/7     | Guest Lecture      | Daniel Berger (Microsoft), TBA
+|          | 11/2     | SDF+TMO Discussion | 
+| 12       | 11/7     | Guest Lecture      | Daniel Berger (Microsoft), Datacenter Sustainability
 |          | 11/9     | Concurrency        |
 | 13       | 11/14    | Concurrency        |
 |          | 11/16    |                    |
