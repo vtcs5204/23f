@@ -250,7 +250,7 @@ below:
 
 1. Write a simple program (name it as ``memalloc.c``) which allocates 16GB
    DRAM, please use ``calloc()`` or equivalent to make sure you zero-out the
-   allocated memory buffer. Do the memmory allocation in the following three
+   allocated memory buffer. Do the memory allocation in the following three
    ways:
   - allocate 4KB DRAM each time, loop until you get 16GB DRAM in total
   - allocate 1GB DRAM each time, loop until you get 16GB DRAM in total
@@ -258,12 +258,12 @@ below:
 
 2. Enhance the ``pagemap.c`` to translate the virtual addresses of your
    allocated 16GB DRAM in ``memalloc.c``. Please log the VA->PA to a file and
-   visualize the layout of the corresponding virutal and physical addresses in
+   visualize the layout of the corresponding virtual and physical addresses in
    the virtual and physical address space respectively. Describe your
    observations (e.g., are virtual/physical addresses continuous? how does the
    layout differ for the above three different allocation schemes?).
 
-3. Enahnce the ``pagemap.c`` to track the latency for each VA->PA translation,
+3. Enhance the ``pagemap.c`` to track the latency for each VA->PA translation,
    and plot the latency CDF (in pdf): 
    - X is latency in microseconds
    - Y is the percentile 
