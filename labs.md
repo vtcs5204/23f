@@ -275,7 +275,3 @@ below:
   - The visualization of both VA and PA layout in their respective address space.
   - The CDF graph of translation latencies.
 
-
-## Lab 3
-
-TBA
