@@ -234,12 +234,47 @@ FEMU's baseline page-mapping scheme.
     achieve block- and hybrid- mapping? What is the processing flow for each
     read() and write() operation? Feel free to use diagrams to visualize them.
 
-### Part 3 - 
-
-
 ## Lab 2
 
-TBA
+As usual, please use CloudLab machines.
+
+### Part 1: Page Table Walk via ``/proc/$pid/pagemap`` (DDL: 11/14/2023 3pm)
+
+> Please accept the assignment on Github classroom using this [link](https://classroom.github.com/a/srfipIvW).
+
+- Starter code: https://github.com/vtess/LeapIO/blob/master/Runtime/pagemap.c
+
+Please use the starter code above and enhance it to measure the VA->PA address
+translations using the ``/proc pagemap`` interface. Detailed instructions
+below:
+
+1. Write a simple program (name it as ``memalloc.c``) which allocates 16GB
+   DRAM, please use ``calloc()`` or equivalent to make sure you zero-out the
+   allocated memory buffer. Do the memmory allocation in the following three
+   ways:
+  - allocate 4KB DRAM each time, loop until you get 16GB DRAM in total
+  - allocate 1GB DRAM each time, loop until you get 16GB DRAM in total
+  - allocate 16GB DRAM in one ``calloc()``.
+
+2. Enhance the ``pagemap.c`` to translate the virtual addresses of your
+   allocated 16GB DRAM in ``memalloc.c``. Please log the VA->PA to a file and
+   visualize the layout of the corresponding virutal and physical addresses in
+   the virtual and physical address space respectively. Describe your
+   observations (e.g., are virtual/physical addresses continuous? how does the
+   layout differ for the above three different allocation schemes?).
+
+3. Enahnce the ``pagemap.c`` to track the latency for each VA->PA translation,
+   and plot the latency CDF (in pdf): 
+   - X is latency in microseconds
+   - Y is the percentile 
+   - Title: ``$YourFirstName-$YourLastName-Pagemap-Lat-CDF``
+   - Caption: describe your observations
+
+4. Submissions
+  - Your modified ``pagemap.c`` file
+  - The visualization of both VA and PA layout in their respective address space.
+  - The CDF graph of translation latencies.
+
 
 ## Lab 3
 
