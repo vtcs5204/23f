@@ -234,6 +234,8 @@ FEMU's baseline page-mapping scheme.
     achieve block- and hybrid- mapping? What is the processing flow for each
     read() and write() operation? Feel free to use diagrams to visualize them.
 
+----
+
 ## Lab 2
 
 As usual, please use CloudLab machines.
