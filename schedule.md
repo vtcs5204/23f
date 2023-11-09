@@ -26,12 +26,12 @@ Course schedule as follows:
 |          | 10/12    | Memory Management  | [slides](https://drive.google.com/file/d/1E5xvkLqNjMtYpgqxoOUxS1OvSeULl2AO/view?usp=sharing) |
 | 9        | 10/17    | Hacking Day!       |
 |          | 10/19    | Memory Management  | [slides](https://drive.google.com/file/d/160TwGlJG9vv9LMZiQHtxhiIAS4HkhAiT/view?usp=sharing) | OSTEP (Ch15,16, 17)                                                                                                                                                   | Paging
-| 10       | 10/24    | Memory Management  | [slides](https://drive.google.com/file/d/1-941-PBjGxGVUxtW638Bq3isHIkf9V8A/view?usp=sharing) | | TLB
+| 10       | 10/24    | Memory Management  | [slides](https://drive.google.com/file/d/1-941-PBjGxGVUxtW638Bq3isHIkf9V8A/view?usp=sharing) |                                                                                                                                                                       | TLB
 |          | 10/26    | Memory Management  | Virtual memory policies + memory tiering/disaggregation
-| 11       | 10/31    | Memory Management  | [slides](https://drive.google.com/file/d/1-IQf4KCJAevfc6e6fGmkMk1HD3XZy94X/view?usp=sharing) | | policies
-|          | 11/2     | SDF+TMO Discussion | 
+| 11       | 10/31    | Memory Management  | [slides](https://drive.google.com/file/d/1-IQf4KCJAevfc6e6fGmkMk1HD3XZy94X/view?usp=sharing) |                                                                                                                                                                       | policies
+|          | 11/2     | SDF+TMO Discussion |
 | 12       | 11/7     | Guest Lecture      | Daniel Berger (Microsoft), Datacenter Sustainability
-|          | 11/9     | Concurrency        |
+|          | 11/9     | Linux Mem. Mgmt    | [slides]()                                                                                   | [mm](https://docs.kernel.org/admin-guide/mm/index.html)                                                                                                               | Linux mm + kernel programming
 | 13       | 11/14    | Concurrency        |
 |          | 11/16    |                    |
 | 14       | 11/21    | Thanksgiving       |
