@@ -275,3 +275,5 @@ below:
   - The visualization of both VA and PA layout in their respective address space.
   - The CDF graph of translation latencies.
 
+Reference: 
+- "Examining Process Page Tables", https://docs.kernel.org/admin-guide/mm/pagemap.html
