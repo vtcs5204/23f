@@ -279,3 +279,44 @@ below:
 
 Reference: 
 - "Examining Process Page Tables", https://docs.kernel.org/admin-guide/mm/pagemap.html
+
+### Part 2: Roll Your Own Linux Kernel Page Table Walker (DDL: 12/5/2023 3pm)
+
+In this part, you will need to implement a Linux kernel module to perform
+various addr translation related operations: 
+
+Let's simplify ``memalloc.c`` to only allocate 1GB buffer in one ``malloc()``
+call.
+
+1. Refer to the code
+   [here](https://github.com/vtess/LeapIO/blob/master/Driver/wpt-util.c#L50)
+   for translating VAs to PAs in the kernel.
+
+2. Write a Linux kernel module (``ko5204.ko``) to
+
+- Expose a ``/proc/5204`` interface to allow userspace and ``ko5204``
+  communication
+- In particular, ``/proc/5204`` should accept writing VAs to it (e.g., ``echo
+  "0x1234" > /proc/5204``) which will trigger ``ko5204.ko`` to translate the VA
+  and log the latency of page translation to the kernel log file
+  (``/var/log/kern.log``)
+- As in previous part, plot the CDF of addr translation latencies. In the
+  caption, explain the latency difference compared to the ``pagemap`` approach
+  in Part 1.
+
+3. Improve your kernel module to run a kernel thread in the background, the
+   thread needs to periodically scan the ``access bits`` of all the 4KB pages
+   in the 1GB buffer and aggregate the access counts every 100ms. In your
+   ``memalloc.c``, keep writing to all the pages in [0, 256MB] sequentially as
+   fast as you can and writing to all the page [256MB, 512MB] every 1ms. Run
+   the entire process for 1min, you kernel module should log down the overall
+   access frequency statistics for all the 4KB pages every 1s to the kernel
+   log. Then plot a heatmap using the log where X-axis is time in seconds
+   (1-60), Y-axis is the VA range of the 1GB buffer, and use different colors
+   to represent the heat (i.e., per-page access frequencies).
+
+
+Reference:
+- Linux page table management, https://www.kernel.org/doc/gorman/html/understand/understand006.html
+- Example heatmaps: https://damonitor.github.io/test/result/visual/latest/rec.heatmap.1.png.html
+- DAMON: Data Access MONitor: https://www.kernel.org/doc/html/v5.17/vm/damon/index.html
