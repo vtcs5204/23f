@@ -288,6 +288,11 @@ various addr translation related operations:
 Let's simplify ``memalloc.c`` to only allocate 1GB buffer in one ``malloc()``
 call.
 
+Please use a FEMU VM for the kernel module development. Guest kernel version >=
+6.0.
+
+**Do NOT use ``c220g5`` nodes on CloudLab, use ``c220g2`` instead.**
+
 1. Refer to the code
    [here](https://github.com/vtess/LeapIO/blob/master/Driver/wpt-util.c#L50)
    for translating VAs to PAs in the kernel.
