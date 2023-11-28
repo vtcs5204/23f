@@ -100,6 +100,14 @@ below for some examples:
 - SDF, [Software-Defined Far Memory in Warehouse-Scale Computers](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/9bb06ab825a127bef4e33c488eaa659d6856225a.pdf), by Google researchers
 - TMO, [TMO: transparent memory offloading in datacenters](https://dl.acm.org/doi/10.1145/3503222.3507731), by Meta researchers
 
+#### Scheduling
+
+- Syrup, [Syrup: User-Defined Scheduling Across the Stack](https://dl.acm.org/doi/10.1145/3477132.3483548)
+- Shenango, [Shenango: Achieving High CPU Efficiency for Latency-sensitive Datacenter Workloads](https://www.usenix.org/system/files/nsdi19-ousterhout.pdf)
+
+- (Optional) gHost, [ghOSt: Fast & Flexible User-Space Delegation of Linux Scheduling](https://dl.acm.org/doi/10.1145/3477132.3483542)
+- (Optional) Caladan, [Caladan: Mitigating Interference at Microsecond Timescales](https://www.usenix.org/conference/osdi20/presentation/fried)
+
 ### Systems Programming
 
 Systems programming skills are necessary for this course. If you would like to
