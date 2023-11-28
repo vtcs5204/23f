@@ -33,13 +33,13 @@ Course schedule as follows:
 | 12       | 11/7     | Guest Lecture      | Daniel Berger (Microsoft), Datacenter Sustainability
 |          | 11/9     | Linux Mem. Mgmt    | [slides](https://drive.google.com/file/d/1DulOC_t7Aodk5epNnWa5DH4iy3GD4NY-/view?usp=sharing) | [mm](https://docs.kernel.org/admin-guide/mm/index.html)                                                                                                               | Linux mm + kernel programming
 | 13       | 11/14    | Process Scheduling | [slides](https://drive.google.com/file/d/1vA4-Nf8KzaTZZRdYC-QtX9KS4NkpMTZr/view?usp=sharing)
-|          | 11/16    |                    |
+|          | 11/16    | (No class)         |
 | 14       | 11/21    | Thanksgiving       |
 |          | 11/23    | Thanksgiving       |
-| 15       | 11/28    |                    |
-|          | 11/30    |                    |
-| 16       | 12/5     |                    |
-|          | 12/7     | Reading Day        |
+| 15       | 11/28    | More Scheduling    |
+|          | 11/30    | Concurrency        |
+| 16       | 12/5     | System Trends      |
+|          | 12/7     | Paper Discussion   |
 
 
 ----
