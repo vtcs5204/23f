@@ -282,6 +282,8 @@ Reference:
 
 ### Part 2: Roll Your Own Linux Kernel Page Table Walker (DDL: 12/5/2023 3pm)
 
+> Please accept the assignment on Github classroom using this [link](https://classroom.github.com/a/psr8f4Rv).
+
 In this part, you will need to implement a Linux kernel module to perform
 various addr translation related operations: 
 
