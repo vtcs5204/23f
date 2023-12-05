@@ -37,8 +37,8 @@ Course schedule as follows:
 | 14       | 11/21    | Thanksgiving       | -
 |          | 11/23    | Thanksgiving       | -
 | 15       | 11/28    | More Scheduling    | [slides](https://drive.google.com/file/d/1QLSDoexhuVNikDhzOH_rpp_S7vgQDcTE/view?usp=sharing) | OSTEP (Ch7-10)
-|          | 11/30    | Concurrency        |
-| 16       | 12/5     | System Trends      |
+|          | 11/30    | Paper Discussion   |
+| 16       | 12/5     | Concurrency        | [slides](https://drive.google.com/file/d/1nbu0lV7V7hXre05FpAUCar9zzZaWv2tn/view?usp=sharing)
 |          | 12/7     | Paper Discussion   |
 
 
