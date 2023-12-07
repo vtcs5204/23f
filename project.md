@@ -75,7 +75,7 @@ Please use the latex template you used for the proposal.
 ### Project Final Report (DDL: 12/10 11:59pm)
 
 You need to submit (1). a 6-page final report for your course project, and (2).
-link to a 10min recorded video.
+link to a 10-15min recorded video.
 
 Please submit your report via Email addressed to huaicheng@cs.vt.edu, with a
 title "CS5204: Final Report", attach your pdf report and video presentation
