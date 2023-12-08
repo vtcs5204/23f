@@ -39,7 +39,7 @@ Course schedule as follows:
 | 15       | 11/28    | More Scheduling    | [slides](https://drive.google.com/file/d/1QLSDoexhuVNikDhzOH_rpp_S7vgQDcTE/view?usp=sharing) | OSTEP (Ch7-10)
 |          | 11/30    | Paper Discussion   |
 | 16       | 12/5     | Concurrency        | [slides](https://drive.google.com/file/d/1nbu0lV7V7hXre05FpAUCar9zzZaWv2tn/view?usp=sharing)
-|          | 12/7     | Wrap-up            | [slides](https://drive.google.com/file/d/1Crn3ii-0H3QZlRqTiEWzID_s6Jf7JbxX/view?usp=sharing)
+|          | 12/7     | Wrap-up            | [slides](https://drive.google.com/file/d/1QUCkOZmtFqpQRwCbKnhy6fzfnSjIP75j/view?usp=sharing)
 
 
 ----
